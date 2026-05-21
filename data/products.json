@@ -1,0 +1,51 @@
+{
+  "phones": {
+    "search_key": "samsung galaxy",
+    "brand": "samsung",
+    "model": "S26",
+    "min_price": "",
+    "max_price": ""
+  },
+  "headphones": {
+    "search_key": "headphones",
+    "brand": "JBL",
+    "model": "700BT",
+    "min_price": "",
+    "max_price": ""
+  },
+  "watches": {
+    "search_key": "smart watches",
+    "brand": "",
+    "model": "T900",
+    "min_price": "5000",
+    "max_price": "10000"
+  },
+  "laptops": {
+    "search_key": "laptops",
+    "brand": "Apple",
+    "model": "Pro M4",
+    "min_price": "",
+    "max_price": ""
+  },
+  "suggest": {
+    "search_key": "Apple",
+    "brand": "",
+    "model": "",
+    "min_price": "",
+    "max_price": ""
+  },
+  "invalid": {
+    "search_key": "zzzxxyyynoexist99999bootcamp",
+    "brand": "",
+    "model": "",
+    "min_price": "",
+    "max_price": ""
+  },
+  "bottles": {
+    "search_key": "water bottle",
+    "brand": "",
+    "model": "",
+    "min_price": "",
+    "max_price": ""
+  }
+}

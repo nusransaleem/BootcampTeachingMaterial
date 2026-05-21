@@ -1,0 +1,25 @@
+{
+  "name": "bootcampbatch1",
+  "version": "1.0.0",
+  "description": "Playwright E2E automation for Daraz.lk",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=setup --project=chromium --project=chromium-cart",
+    "test:login": "playwright test tests/specs/login.spec.js",
+    "test:auth": "playwright test tests/specs/auth.spec.js",
+    "test:home": "playwright test tests/specs/home.spec.js",
+    "test:search": "playwright test tests/specs/search.spec.js",
+    "test:product": "playwright test tests/specs/product.spec.js",
+    "test:cart": "playwright test --project=chromium-cart",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "valid": {
+    "email": "codewaveautomation@gmail.com",
+    "password": "CodeWaveTeste@001",
+    "displayName": "CodeWaveTester's account",
+    "language": "en"
+  },
+  "invalid": {
+    "email": "nota.real.user@invalid-test.com",
+    "password": "WrongPassword!000"
+  }
+}
