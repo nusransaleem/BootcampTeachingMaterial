@@ -1,5 +1,5 @@
 const BASE_URL = process.env.BASE_URL || 'https://www.daraz.lk';
-
+const test = "",
 const SELECTORS = {
   searchInput: 'input#q[name="q"]',
   cartBadge: '#topActionCartNumber',
